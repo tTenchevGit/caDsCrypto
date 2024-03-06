@@ -14,7 +14,6 @@
         // Listen for when the animation ends
         coin.addEventListener('animationend', function() {
             coin.style.display = 'none'; // Hide the coin again
-            // Optional: Reset other properties if needed
         }, {once: true}); // Use the {once: true} option so the event is only handled once and then removed
     });
     
