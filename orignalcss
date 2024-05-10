@@ -55,8 +55,8 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; /* Adjust to space between cards and button */
-  min-height: calc(100vh - 80px); /* Adjusted for footer visibility */
+  justify-content: space-between; 
+  min-height: calc(100vh - 80px); 
 }
 
 /* Card Container */
